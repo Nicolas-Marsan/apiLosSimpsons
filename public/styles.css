@@ -1,0 +1,54 @@
+body{
+    min-width: 1050px;
+}
+
+*{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fotoPersonaje div{
+
+width: 33%;
+border: 1px solid black;
+
+    
+}
+
+body{
+    background-color: yellow;
+}
+.todo{
+    display: flex;
+    
+}
+
+.todo div{
+    width: 25%;
+    
+    height: 400px;
+    max-height: 400px;
+}
+
+.nombre{
+    padding-top: 30px;
+}
+
+div{
+    margin: 25px;
+}
+.boton{
+    padding-top: 200px;
+}
+
+.desc{
+    padding-top: 30px;
+    max-width: 100%;
+    
+}
+
+.todo .desc{
+    text-align: center;
+}
+
