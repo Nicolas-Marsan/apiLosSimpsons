@@ -99,7 +99,7 @@ export default Simpsons;
 /*git init
 hola
 git add .
-
+hola
 git commit -m "first commit"
 
 git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
