@@ -1,5 +1,6 @@
 body{
-    min-width: 1050px;
+    min-width: 1000px;
+    
 }
 
 *{
@@ -8,47 +9,84 @@ body{
     font-weight: bold;
 }
 
-.fotoPersonaje div{
 
-width: 33%;
-border: 1px solid black;
-
-    
-}
 
 body{
     background-color: yellow;
 }
 .todo{
     display: flex;
+    justify-content: center;
     
 }
 
 .todo div{
-    width: 25%;
     
+    margin-top: 20px;
+    width: 250px;
     height: 400px;
-    max-height: 400px;
+    margin:50px;
+
 }
 
-.nombre{
-    padding-top: 30px;
+.fotoPersonaje img{
+    width: 270px;
+    height: 420px;
 }
 
-div{
-    margin: 25px;
-}
-.boton{
-    padding-top: 200px;
-}
-
-.desc{
-    padding-top: 30px;
-    max-width: 100%;
+.banner{
+    margin-top:0px;
+    width: 100vw;
+    min-width: 1000px;
+    height: 200px;
     
 }
+.boton button{
+    margin-top: 200px;
+    margin-left: 80px;
+}
+.nombre{
+    font-size: 40px;
+}
 
-.todo .desc{
-    text-align: center;
+@media (max-width: 500px){
+	
+    .todo{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .todo div{
+    
+        margin:auto;
+        width: 400px;
+        height: auto;
+    
+    }
+
+    .desc{
+        font-size: 25px;
+        
+        
+        
+    }
+    .nombre{
+        font-size: 40px;
+        
+    }
+    .fotoPersonaje img{
+        width: 450px;
+        height: 600px;
+    }
+    .banner{
+        display: none;
+    }
+    .boton button{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+
 }
 

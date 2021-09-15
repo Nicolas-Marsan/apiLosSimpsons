@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import img from './simpsonsBanner.jpg';
 class Simpsons extends Component{
 
 
@@ -71,11 +71,13 @@ render(){
         contenido = <img className="foto" src={this.state.gif}></img>
     }
     return(
-        <div className="todo">
+        <div>
+
+
             <div className="nombre">
             {nombre}
             </div>
-            
+            <div className="todo">
             <div className="desc">
             {desc}
             </div>
@@ -83,11 +85,11 @@ render(){
             {contenido}
             </div>
             <div className="boton">
-            <button onClick ={() => this.traerGifNuevo()}>Random Gif</button>
+            <button onClick ={() => this.traerGifNuevo()}>Next character</button>
+            </div>
             </div>
             
-            
-            
+            <img className="banner" src={img}></img>
             
         </div>
     )
